@@ -18,3 +18,26 @@ nav a {
   margin: 0 15px;
   font-weight: bold;
 }
+header {
+  background-color: #4CAF50; /* verde suave */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 8px solid #388E3C; /* borda para separar visualmente */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
